@@ -14,7 +14,7 @@ dependencies:
 
 devDependencies:
   '@tauri-apps/cli':
-    specifier: ^1.5.7
+    specifier: ^1.5.8
     version: 1.5.8
   '@vitejs/plugin-vue':
     specifier: ^4.5.2
@@ -26,7 +26,7 @@ devDependencies:
     specifier: ^5.0.10
     version: 5.0.10
   vue-tsc:
-    specifier: ^1.8.5
+    specifier: ^1.8.25
     version: 1.8.25(typescript@5.3.3)
 
 packages:
@@ -410,7 +410,6 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -420,7 +419,6 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -430,7 +428,6 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -440,7 +437,6 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
